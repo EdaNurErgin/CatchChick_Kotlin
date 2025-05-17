@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- İlk Satırdaki Görseller -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp">
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextViewTime" />
+        <TextView
+            android:id="@+id/textViewScore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <!-- Görsellerin Yer Aldığı Satır -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <ImageView
+                android:id="@+id/civciv3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- Diğer Satırdaki Görseller -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <ImageView
+                android:id="@+id/civciv6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- Diğer Görsellerin Satırı -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv10"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <ImageView
+                android:id="@+id/civciv11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- Diğer Görsellerin Satırı -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:id="@+id/civciv14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <ImageView
+                android:id="@+id/civciv15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/civciv" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- Buton En Aşağı Konumlandırıldı -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Button" />
+
+</LinearLayout>
